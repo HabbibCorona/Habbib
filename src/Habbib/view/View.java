@@ -221,8 +221,6 @@ public class View extends BaseView{
 
         setVisible(true);
         return registerContainer;
-
-
     }
 
     private Container initMenu(Institution institution){
