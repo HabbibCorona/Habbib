@@ -9,7 +9,7 @@ public class Main {
     public static <InstitutionRegister> void main(String[] args) {
 
         try {
-            String Teste;
+            String Test;
             InstitutionRegister newInstitution = new InstitutionRegister();
             int pkHospital = newInstitution.addAddress(150, 789, "Casa", "Pinheiros", "São Paulo", "SP", "Rua Consolação");
             newInstitution.Register("12332", "Santa casa", "verde", "1190988998", "Privado", pkHospital);
