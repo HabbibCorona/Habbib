@@ -6,10 +6,10 @@ import Habbib.controller.InstitutionRegister;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static <InstitutionRegister> void main(String[] args) {
 
-        try
-        {
+        try {
+            String Teste;
             InstitutionRegister newInstitution = new InstitutionRegister();
             int pkHospital = newInstitution.addAddress(150, 789, "Casa", "Pinheiros", "São Paulo", "SP", "Rua Consolação");
             newInstitution.Register("12332", "Santa casa", "verde", "1190988998", "Privado", pkHospital);
@@ -20,6 +20,5 @@ public class Main {
             System.out.println(ex.getMessage());
         }
 
-        rewrqw
     }
 }
